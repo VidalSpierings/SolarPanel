@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BBB3D92687C86339D3B0E5A /* Pods_SolarPanelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76975B550F40E2E5BC128589 /* Pods_SolarPanelTests.framework */; };
+		4C5357477E1D725201A50EC9 /* Pods_SolarPanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D0DCDC68949A572A8F25E6 /* Pods_SolarPanel.framework */; };
+		9F6648F9A2DA8B1AE65260D5 /* Pods_SolarPanel_SolarPanelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F25DA2BAED19F9CE74CE26 /* Pods_SolarPanel_SolarPanelUITests.framework */; };
+		A80413F62BF1155A00A75D2B /* MyGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80413F52BF1155A00A75D2B /* MyGestureRecognizer.swift */; };
+		A807FB3E2BEB977300855402 /* Zonnepaneel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807FB3D2BEB977300855402 /* Zonnepaneel.swift */; };
+		A807FB402BEB996500855402 /* FoldingCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807FB3F2BEB996500855402 /* FoldingCommand.swift */; };
+		A820C2712C0B7BFA00B7E5A1 /* DataSnapshots+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A820C26F2C0B7BFA00B7E5A1 /* DataSnapshots+CoreDataClass.swift */; };
+		A820C2722C0B7BFA00B7E5A1 /* DataSnapshots+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A820C2702C0B7BFA00B7E5A1 /* DataSnapshots+CoreDataProperties.swift */; };
+		A84B0E4B2BF1F90200194E40 /* ActionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B0E4A2BF1F90200194E40 /* ActionCard.swift */; };
+		A84B0E4F2BF1FC3000194E40 /* RefreshHistoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B0E4E2BF1FC3000194E40 /* RefreshHistoryCard.swift */; };
+		A84B0E512BF201D000194E40 /* MyPhoneyCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B0E502BF201D000194E40 /* MyPhoneyCardComponent.swift */; };
+		A84B0E532BF275F600194E40 /* SnapshotsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B0E522BF275F600194E40 /* SnapshotsCard.swift */; };
+		A84B0E572BF28FBA00194E40 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B0E562BF28FBA00194E40 /* MyViewModel.swift */; };
+		A85E39422BF365EF00C0B5C3 /* SnapshotStatsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E39412BF365EF00C0B5C3 /* SnapshotStatsCard.swift */; };
+		A870349B2BEA537000818DD9 /* LiveInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870349A2BEA537000818DD9 /* LiveInfoCard.swift */; };
+		A870349D2BEA561C00818DD9 /* BatteryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870349C2BEA561C00818DD9 /* BatteryCard.swift */; };
+		A87423442C0709D600E9D404 /* VouwConfiguratie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87423432C0709D600E9D404 /* VouwConfiguratie.swift */; };
+		A885FC562BE8D18D00E99329 /* MyWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885FC552BE8D18D00E99329 /* MyWebSocket.swift */; };
+		A8AA2DF82BFF3338003D3769 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = A8AA2DF72BFF3338003D3769 /* Documentation.docc */; };
+		A8E11C4A2C0653DA00C19B1E /* testjson.json in Sources */ = {isa = PBXBuildFile; fileRef = A8E11C492C0653DA00C19B1E /* testjson.json */; };
+		A8E11C4B2C0669F000C19B1E /* testjson.json in Resources */ = {isa = PBXBuildFile; fileRef = A8E11C492C0653DA00C19B1E /* testjson.json */; };
+		A8E1C8DC2BEE6CBB002ABB21 /* CurrentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8DB2BEE6CBB002ABB21 /* CurrentCard.swift */; };
+		A8E1C8DE2BEE7507002ABB21 /* VoltageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8DD2BEE7507002ABB21 /* VoltageCard.swift */; };
+		A8E1C8E42BEEAB73002ABB21 /* FoldInCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8E32BEEAB73002ABB21 /* FoldInCard.swift */; };
+		A8E1C8E62BEEAB7F002ABB21 /* FoldOutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8E52BEEAB7F002ABB21 /* FoldOutCard.swift */; };
+		A8E1C8E82BEEAC22002ABB21 /* MyIconCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8E72BEEAC22002ABB21 /* MyIconCreator.swift */; };
+		A8F505A42BEBB374008E1236 /* PostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F505A32BEBB374008E1236 /* PostAPI.swift */; };
+		A8FE0F652BE3D94900E8AC4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE0F642BE3D94900E8AC4A /* AppDelegate.swift */; };
+		A8FE0F672BE3D94900E8AC4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE0F662BE3D94900E8AC4A /* SceneDelegate.swift */; };
+		A8FE0F692BE3D94900E8AC4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE0F682BE3D94900E8AC4A /* ViewController.swift */; };
+		A8FE0F6C2BE3D94900E8AC4A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A8FE0F6B2BE3D94900E8AC4A /* Base */; };
+		A8FE0F6F2BE3D94900E8AC4A /* SolarPanel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8FE0F6D2BE3D94900E8AC4A /* SolarPanel.xcdatamodeld */; };
+		A8FE0F712BE3D94A00E8AC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FE0F702BE3D94A00E8AC4A /* Assets.xcassets */; };
+		A8FE0F742BE3D94A00E8AC4A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A8FE0F732BE3D94A00E8AC4A /* Base */; };
+		A8FE0F7F2BE3D94A00E8AC4A /* SolarPanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE0F7E2BE3D94A00E8AC4A /* SolarPanelTests.swift */; };
+		A8FE0F892BE3D94A00E8AC4A /* SolarPanelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE0F882BE3D94A00E8AC4A /* SolarPanelUITests.swift */; };
+		A8FE0F8B2BE3D94A00E8AC4A /* SolarPanelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE0F8A2BE3D94A00E8AC4A /* SolarPanelUITestsLaunchTests.swift */; };
+		A8FE0F9D2BE3DF9E00E8AC4A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE0F9C2BE3DF9E00E8AC4A /* Constants.swift */; };
+		A8FE0F9F2BE3F05400E8AC4A /* MyCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE0F9E2BE3F05400E8AC4A /* MyCardComponent.swift */; };
+		A8FE0FA12BE3F2F500E8AC4A /* TallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE0FA02BE3F2F500E8AC4A /* TallCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8FE0F7B2BE3D94A00E8AC4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8FE0F592BE3D94900E8AC4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FE0F602BE3D94900E8AC4A;
+			remoteInfo = SolarPanel;
+		};
+		A8FE0F852BE3D94A00E8AC4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8FE0F592BE3D94900E8AC4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FE0F602BE3D94900E8AC4A;
+			remoteInfo = SolarPanel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E994BE674FF4A3891120907 /* Pods-SolarPanelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolarPanelTests.debug.xcconfig"; path = "Target Support Files/Pods-SolarPanelTests/Pods-SolarPanelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FE50637985F1AD481E107FD /* Pods-SolarPanelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolarPanelTests.release.xcconfig"; path = "Target Support Files/Pods-SolarPanelTests/Pods-SolarPanelTests.release.xcconfig"; sourceTree = "<group>"; };
+		40F25DA2BAED19F9CE74CE26 /* Pods_SolarPanel_SolarPanelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolarPanel_SolarPanelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5253E927F7FE1E76381D5543 /* Pods-SolarPanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolarPanel.release.xcconfig"; path = "Target Support Files/Pods-SolarPanel/Pods-SolarPanel.release.xcconfig"; sourceTree = "<group>"; };
+		76975B550F40E2E5BC128589 /* Pods_SolarPanelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolarPanelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9022AA40546C522C34D2CDA7 /* Pods-SolarPanel-SolarPanelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolarPanel-SolarPanelUITests.debug.xcconfig"; path = "Target Support Files/Pods-SolarPanel-SolarPanelUITests/Pods-SolarPanel-SolarPanelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93105F80A0F2103A9E77E296 /* Pods-SolarPanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolarPanel.debug.xcconfig"; path = "Target Support Files/Pods-SolarPanel/Pods-SolarPanel.debug.xcconfig"; sourceTree = "<group>"; };
+		A80413F52BF1155A00A75D2B /* MyGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGestureRecognizer.swift; sourceTree = "<group>"; };
+		A807FB3D2BEB977300855402 /* Zonnepaneel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zonnepaneel.swift; sourceTree = "<group>"; };
+		A807FB3F2BEB996500855402 /* FoldingCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingCommand.swift; sourceTree = "<group>"; };
+		A820C26F2C0B7BFA00B7E5A1 /* DataSnapshots+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataSnapshots+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A820C2702C0B7BFA00B7E5A1 /* DataSnapshots+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataSnapshots+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		A84B0E4A2BF1F90200194E40 /* ActionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCard.swift; sourceTree = "<group>"; };
+		A84B0E4E2BF1FC3000194E40 /* RefreshHistoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshHistoryCard.swift; sourceTree = "<group>"; };
+		A84B0E502BF201D000194E40 /* MyPhoneyCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhoneyCardComponent.swift; sourceTree = "<group>"; };
+		A84B0E522BF275F600194E40 /* SnapshotsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotsCard.swift; sourceTree = "<group>"; };
+		A84B0E562BF28FBA00194E40 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		A85E39412BF365EF00C0B5C3 /* SnapshotStatsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotStatsCard.swift; sourceTree = "<group>"; };
+		A870349A2BEA537000818DD9 /* LiveInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveInfoCard.swift; sourceTree = "<group>"; };
+		A870349C2BEA561C00818DD9 /* BatteryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryCard.swift; sourceTree = "<group>"; };
+		A87423432C0709D600E9D404 /* VouwConfiguratie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VouwConfiguratie.swift; sourceTree = "<group>"; };
+		A885FC552BE8D18D00E99329 /* MyWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebSocket.swift; sourceTree = "<group>"; };
+		A8AA2DF72BFF3338003D3769 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		A8E11C492C0653DA00C19B1E /* testjson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testjson.json; sourceTree = "<group>"; };
+		A8E1C8DB2BEE6CBB002ABB21 /* CurrentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentCard.swift; sourceTree = "<group>"; };
+		A8E1C8DD2BEE7507002ABB21 /* VoltageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltageCard.swift; sourceTree = "<group>"; };
+		A8E1C8E32BEEAB73002ABB21 /* FoldInCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldInCard.swift; sourceTree = "<group>"; };
+		A8E1C8E52BEEAB7F002ABB21 /* FoldOutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldOutCard.swift; sourceTree = "<group>"; };
+		A8E1C8E72BEEAC22002ABB21 /* MyIconCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIconCreator.swift; sourceTree = "<group>"; };
+		A8F505A32BEBB374008E1236 /* PostAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAPI.swift; sourceTree = "<group>"; };
+		A8FE0F612BE3D94900E8AC4A /* SolarPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FE0F642BE3D94900E8AC4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8FE0F662BE3D94900E8AC4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8FE0F682BE3D94900E8AC4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8FE0F6B2BE3D94900E8AC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8FE0F6E2BE3D94900E8AC4A /* SolarPanel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SolarPanel.xcdatamodel; sourceTree = "<group>"; };
+		A8FE0F702BE3D94A00E8AC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8FE0F732BE3D94A00E8AC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8FE0F752BE3D94A00E8AC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FE0F7A2BE3D94A00E8AC4A /* SolarPanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarPanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FE0F7E2BE3D94A00E8AC4A /* SolarPanelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarPanelTests.swift; sourceTree = "<group>"; };
+		A8FE0F842BE3D94A00E8AC4A /* SolarPanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarPanelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FE0F882BE3D94A00E8AC4A /* SolarPanelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarPanelUITests.swift; sourceTree = "<group>"; };
+		A8FE0F8A2BE3D94A00E8AC4A /* SolarPanelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarPanelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8FE0F9C2BE3DF9E00E8AC4A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A8FE0F9E2BE3F05400E8AC4A /* MyCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardComponent.swift; sourceTree = "<group>"; };
+		A8FE0FA02BE3F2F500E8AC4A /* TallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallCard.swift; sourceTree = "<group>"; };
+		C8580AFEECF58E5E1B46C5D4 /* Pods-SolarPanel-SolarPanelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolarPanel-SolarPanelUITests.release.xcconfig"; path = "Target Support Files/Pods-SolarPanel-SolarPanelUITests/Pods-SolarPanel-SolarPanelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6D0DCDC68949A572A8F25E6 /* Pods_SolarPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolarPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8FE0F5E2BE3D94900E8AC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5357477E1D725201A50EC9 /* Pods_SolarPanel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FE0F772BE3D94A00E8AC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBB3D92687C86339D3B0E5A /* Pods_SolarPanelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FE0F812BE3D94A00E8AC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6648F9A2DA8B1AE65260D5 /* Pods_SolarPanel_SolarPanelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D36272D16D2E4B18F57798C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93105F80A0F2103A9E77E296 /* Pods-SolarPanel.debug.xcconfig */,
+				5253E927F7FE1E76381D5543 /* Pods-SolarPanel.release.xcconfig */,
+				9022AA40546C522C34D2CDA7 /* Pods-SolarPanel-SolarPanelUITests.debug.xcconfig */,
+				C8580AFEECF58E5E1B46C5D4 /* Pods-SolarPanel-SolarPanelUITests.release.xcconfig */,
+				3E994BE674FF4A3891120907 /* Pods-SolarPanelTests.debug.xcconfig */,
+				3FE50637985F1AD481E107FD /* Pods-SolarPanelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A11079F6F3A938226B02731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6D0DCDC68949A572A8F25E6 /* Pods_SolarPanel.framework */,
+				40F25DA2BAED19F9CE74CE26 /* Pods_SolarPanel_SolarPanelUITests.framework */,
+				76975B550F40E2E5BC128589 /* Pods_SolarPanelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A84C4C382BEACA6600D47BF0 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				A8E11C492C0653DA00C19B1E /* testjson.json */,
+				A8E1C8E72BEEAC22002ABB21 /* MyIconCreator.swift */,
+				A80413F52BF1155A00A75D2B /* MyGestureRecognizer.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		A885FC542BE8D16B00E99329 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				A885FC552BE8D18D00E99329 /* MyWebSocket.swift */,
+				A807FB3F2BEB996500855402 /* FoldingCommand.swift */,
+				A8F505A32BEBB374008E1236 /* PostAPI.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		A8FE0F582BE3D94900E8AC4A = {
+			isa = PBXGroup;
+			children = (
+				A8FE0F632BE3D94900E8AC4A /* SolarPanel */,
+				A8FE0F7D2BE3D94A00E8AC4A /* SolarPanelTests */,
+				A8FE0F872BE3D94A00E8AC4A /* SolarPanelUITests */,
+				A8FE0F622BE3D94900E8AC4A /* Products */,
+				1D36272D16D2E4B18F57798C /* Pods */,
+				2A11079F6F3A938226B02731 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8FE0F622BE3D94900E8AC4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8FE0F612BE3D94900E8AC4A /* SolarPanel.app */,
+				A8FE0F7A2BE3D94A00E8AC4A /* SolarPanelTests.xctest */,
+				A8FE0F842BE3D94A00E8AC4A /* SolarPanelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8FE0F632BE3D94900E8AC4A /* SolarPanel */ = {
+			isa = PBXGroup;
+			children = (
+				A84C4C382BEACA6600D47BF0 /* Misc */,
+				A885FC542BE8D16B00E99329 /* Repository */,
+				A8FE0F9B2BE3DF8700E8AC4A /* Models */,
+				A8FE0F9A2BE3DF7B00E8AC4A /* ViewModels */,
+				A8FE0F992BE3DF7500E8AC4A /* Views */,
+				A8FE0F982BE3DF6800E8AC4A /* CardsComponents */,
+				A8FE0F642BE3D94900E8AC4A /* AppDelegate.swift */,
+				A8FE0F662BE3D94900E8AC4A /* SceneDelegate.swift */,
+				A8FE0F9C2BE3DF9E00E8AC4A /* Constants.swift */,
+				A8FE0F6A2BE3D94900E8AC4A /* Main.storyboard */,
+				A8FE0F702BE3D94A00E8AC4A /* Assets.xcassets */,
+				A8FE0F722BE3D94A00E8AC4A /* LaunchScreen.storyboard */,
+				A8FE0F752BE3D94A00E8AC4A /* Info.plist */,
+				A8FE0F6D2BE3D94900E8AC4A /* SolarPanel.xcdatamodeld */,
+				A8AA2DF72BFF3338003D3769 /* Documentation.docc */,
+			);
+			path = SolarPanel;
+			sourceTree = "<group>";
+		};
+		A8FE0F7D2BE3D94A00E8AC4A /* SolarPanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8FE0F7E2BE3D94A00E8AC4A /* SolarPanelTests.swift */,
+			);
+			path = SolarPanelTests;
+			sourceTree = "<group>";
+		};
+		A8FE0F872BE3D94A00E8AC4A /* SolarPanelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8FE0F882BE3D94A00E8AC4A /* SolarPanelUITests.swift */,
+				A8FE0F8A2BE3D94A00E8AC4A /* SolarPanelUITestsLaunchTests.swift */,
+			);
+			path = SolarPanelUITests;
+			sourceTree = "<group>";
+		};
+		A8FE0F982BE3DF6800E8AC4A /* CardsComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A8FE0F9E2BE3F05400E8AC4A /* MyCardComponent.swift */,
+				A8FE0FA02BE3F2F500E8AC4A /* TallCard.swift */,
+				A870349A2BEA537000818DD9 /* LiveInfoCard.swift */,
+				A870349C2BEA561C00818DD9 /* BatteryCard.swift */,
+				A8E1C8DB2BEE6CBB002ABB21 /* CurrentCard.swift */,
+				A8E1C8DD2BEE7507002ABB21 /* VoltageCard.swift */,
+				A8E1C8E32BEEAB73002ABB21 /* FoldInCard.swift */,
+				A8E1C8E52BEEAB7F002ABB21 /* FoldOutCard.swift */,
+				A84B0E4A2BF1F90200194E40 /* ActionCard.swift */,
+				A84B0E4E2BF1FC3000194E40 /* RefreshHistoryCard.swift */,
+				A84B0E502BF201D000194E40 /* MyPhoneyCardComponent.swift */,
+				A84B0E522BF275F600194E40 /* SnapshotsCard.swift */,
+				A85E39412BF365EF00C0B5C3 /* SnapshotStatsCard.swift */,
+			);
+			path = CardsComponents;
+			sourceTree = "<group>";
+		};
+		A8FE0F992BE3DF7500E8AC4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8FE0F682BE3D94900E8AC4A /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8FE0F9A2BE3DF7B00E8AC4A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A84B0E562BF28FBA00194E40 /* MyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A8FE0F9B2BE3DF8700E8AC4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A820C26F2C0B7BFA00B7E5A1 /* DataSnapshots+CoreDataClass.swift */,
+				A820C2702C0B7BFA00B7E5A1 /* DataSnapshots+CoreDataProperties.swift */,
+				A807FB3D2BEB977300855402 /* Zonnepaneel.swift */,
+				A87423432C0709D600E9D404 /* VouwConfiguratie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8FE0F602BE3D94900E8AC4A /* SolarPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FE0F8E2BE3D94A00E8AC4A /* Build configuration list for PBXNativeTarget "SolarPanel" */;
+			buildPhases = (
+				4907D53483AF713DAE72B5AA /* [CP] Check Pods Manifest.lock */,
+				A8FE0F5D2BE3D94900E8AC4A /* Sources */,
+				A8FE0F5E2BE3D94900E8AC4A /* Frameworks */,
+				A8FE0F5F2BE3D94900E8AC4A /* Resources */,
+				DBD3CEF1E172F4BFDCA18E80 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarPanel;
+			productName = SolarPanel;
+			productReference = A8FE0F612BE3D94900E8AC4A /* SolarPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8FE0F792BE3D94A00E8AC4A /* SolarPanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FE0F912BE3D94A00E8AC4A /* Build configuration list for PBXNativeTarget "SolarPanelTests" */;
+			buildPhases = (
+				E5BB431CB689BB8223AAA1EA /* [CP] Check Pods Manifest.lock */,
+				A8FE0F762BE3D94A00E8AC4A /* Sources */,
+				A8FE0F772BE3D94A00E8AC4A /* Frameworks */,
+				A8FE0F782BE3D94A00E8AC4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8FE0F7C2BE3D94A00E8AC4A /* PBXTargetDependency */,
+			);
+			name = SolarPanelTests;
+			productName = SolarPanelTests;
+			productReference = A8FE0F7A2BE3D94A00E8AC4A /* SolarPanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8FE0F832BE3D94A00E8AC4A /* SolarPanelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FE0F942BE3D94A00E8AC4A /* Build configuration list for PBXNativeTarget "SolarPanelUITests" */;
+			buildPhases = (
+				8E1E8BA16C793BA440D8768D /* [CP] Check Pods Manifest.lock */,
+				A8FE0F802BE3D94A00E8AC4A /* Sources */,
+				A8FE0F812BE3D94A00E8AC4A /* Frameworks */,
+				A8FE0F822BE3D94A00E8AC4A /* Resources */,
+				FDE28C4327829602B7A37940 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8FE0F862BE3D94A00E8AC4A /* PBXTargetDependency */,
+			);
+			name = SolarPanelUITests;
+			productName = SolarPanelUITests;
+			productReference = A8FE0F842BE3D94A00E8AC4A /* SolarPanelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8FE0F592BE3D94900E8AC4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A8FE0F602BE3D94900E8AC4A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A8FE0F792BE3D94A00E8AC4A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A8FE0F602BE3D94900E8AC4A;
+					};
+					A8FE0F832BE3D94A00E8AC4A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A8FE0F602BE3D94900E8AC4A;
+					};
+				};
+			};
+			buildConfigurationList = A8FE0F5C2BE3D94900E8AC4A /* Build configuration list for PBXProject "SolarPanel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8FE0F582BE3D94900E8AC4A;
+			productRefGroup = A8FE0F622BE3D94900E8AC4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8FE0F602BE3D94900E8AC4A /* SolarPanel */,
+				A8FE0F792BE3D94A00E8AC4A /* SolarPanelTests */,
+				A8FE0F832BE3D94A00E8AC4A /* SolarPanelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8FE0F5F2BE3D94900E8AC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E11C4B2C0669F000C19B1E /* testjson.json in Resources */,
+				A8FE0F712BE3D94A00E8AC4A /* Assets.xcassets in Resources */,
+				A8FE0F742BE3D94A00E8AC4A /* Base in Resources */,
+				A8FE0F6C2BE3D94900E8AC4A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FE0F782BE3D94A00E8AC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FE0F822BE3D94A00E8AC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4907D53483AF713DAE72B5AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolarPanel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1E8BA16C793BA440D8768D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolarPanel-SolarPanelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD3CEF1E172F4BFDCA18E80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolarPanel/Pods-SolarPanel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolarPanel/Pods-SolarPanel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SolarPanel/Pods-SolarPanel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BB431CB689BB8223AAA1EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolarPanelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE28C4327829602B7A37940 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolarPanel-SolarPanelUITests/Pods-SolarPanel-SolarPanelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolarPanel-SolarPanelUITests/Pods-SolarPanel-SolarPanelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SolarPanel-SolarPanelUITests/Pods-SolarPanel-SolarPanelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8FE0F5D2BE3D94900E8AC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F505A42BEBB374008E1236 /* PostAPI.swift in Sources */,
+				A8E1C8E62BEEAB7F002ABB21 /* FoldOutCard.swift in Sources */,
+				A87423442C0709D600E9D404 /* VouwConfiguratie.swift in Sources */,
+				A870349B2BEA537000818DD9 /* LiveInfoCard.swift in Sources */,
+				A8FE0F9D2BE3DF9E00E8AC4A /* Constants.swift in Sources */,
+				A885FC562BE8D18D00E99329 /* MyWebSocket.swift in Sources */,
+				A8FE0F6F2BE3D94900E8AC4A /* SolarPanel.xcdatamodeld in Sources */,
+				A8FE0F692BE3D94900E8AC4A /* ViewController.swift in Sources */,
+				A8FE0F9F2BE3F05400E8AC4A /* MyCardComponent.swift in Sources */,
+				A84B0E572BF28FBA00194E40 /* MyViewModel.swift in Sources */,
+				A8E1C8E82BEEAC22002ABB21 /* MyIconCreator.swift in Sources */,
+				A8FE0F652BE3D94900E8AC4A /* AppDelegate.swift in Sources */,
+				A807FB3E2BEB977300855402 /* Zonnepaneel.swift in Sources */,
+				A8AA2DF82BFF3338003D3769 /* Documentation.docc in Sources */,
+				A8FE0FA12BE3F2F500E8AC4A /* TallCard.swift in Sources */,
+				A807FB402BEB996500855402 /* FoldingCommand.swift in Sources */,
+				A820C2712C0B7BFA00B7E5A1 /* DataSnapshots+CoreDataClass.swift in Sources */,
+				A820C2722C0B7BFA00B7E5A1 /* DataSnapshots+CoreDataProperties.swift in Sources */,
+				A80413F62BF1155A00A75D2B /* MyGestureRecognizer.swift in Sources */,
+				A8FE0F672BE3D94900E8AC4A /* SceneDelegate.swift in Sources */,
+				A8E1C8DE2BEE7507002ABB21 /* VoltageCard.swift in Sources */,
+				A8E11C4A2C0653DA00C19B1E /* testjson.json in Sources */,
+				A85E39422BF365EF00C0B5C3 /* SnapshotStatsCard.swift in Sources */,
+				A84B0E532BF275F600194E40 /* SnapshotsCard.swift in Sources */,
+				A8E1C8E42BEEAB73002ABB21 /* FoldInCard.swift in Sources */,
+				A84B0E4B2BF1F90200194E40 /* ActionCard.swift in Sources */,
+				A84B0E512BF201D000194E40 /* MyPhoneyCardComponent.swift in Sources */,
+				A84B0E4F2BF1FC3000194E40 /* RefreshHistoryCard.swift in Sources */,
+				A870349D2BEA561C00818DD9 /* BatteryCard.swift in Sources */,
+				A8E1C8DC2BEE6CBB002ABB21 /* CurrentCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FE0F762BE3D94A00E8AC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FE0F7F2BE3D94A00E8AC4A /* SolarPanelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FE0F802BE3D94A00E8AC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FE0F892BE3D94A00E8AC4A /* SolarPanelUITests.swift in Sources */,
+				A8FE0F8B2BE3D94A00E8AC4A /* SolarPanelUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8FE0F7C2BE3D94A00E8AC4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8FE0F602BE3D94900E8AC4A /* SolarPanel */;
+			targetProxy = A8FE0F7B2BE3D94A00E8AC4A /* PBXContainerItemProxy */;
+		};
+		A8FE0F862BE3D94A00E8AC4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8FE0F602BE3D94900E8AC4A /* SolarPanel */;
+			targetProxy = A8FE0F852BE3D94A00E8AC4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8FE0F6A2BE3D94900E8AC4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8FE0F6B2BE3D94900E8AC4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8FE0F722BE3D94A00E8AC4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8FE0F732BE3D94A00E8AC4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8FE0F8C2BE3D94A00E8AC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8FE0F8D2BE3D94A00E8AC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8FE0F8F2BE3D94A00E8AC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93105F80A0F2103A9E77E296 /* Pods-SolarPanel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT3XU3HDLH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SolarPanel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Solar Panel";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.SolarPanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A8FE0F902BE3D94A00E8AC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5253E927F7FE1E76381D5543 /* Pods-SolarPanel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT3XU3HDLH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SolarPanel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Solar Panel";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.SolarPanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		A8FE0F922BE3D94A00E8AC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E994BE674FF4A3891120907 /* Pods-SolarPanelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT3XU3HDLH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.SolarPanelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarPanel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SolarPanel";
+			};
+			name = Debug;
+		};
+		A8FE0F932BE3D94A00E8AC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE50637985F1AD481E107FD /* Pods-SolarPanelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT3XU3HDLH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.SolarPanelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarPanel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SolarPanel";
+			};
+			name = Release;
+		};
+		A8FE0F952BE3D94A00E8AC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9022AA40546C522C34D2CDA7 /* Pods-SolarPanel-SolarPanelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT3XU3HDLH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.SolarPanelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolarPanel;
+			};
+			name = Debug;
+		};
+		A8FE0F962BE3D94A00E8AC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8580AFEECF58E5E1B46C5D4 /* Pods-SolarPanel-SolarPanelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT3XU3HDLH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entecmedia.SolarPanelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolarPanel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8FE0F5C2BE3D94900E8AC4A /* Build configuration list for PBXProject "SolarPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FE0F8C2BE3D94A00E8AC4A /* Debug */,
+				A8FE0F8D2BE3D94A00E8AC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FE0F8E2BE3D94A00E8AC4A /* Build configuration list for PBXNativeTarget "SolarPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FE0F8F2BE3D94A00E8AC4A /* Debug */,
+				A8FE0F902BE3D94A00E8AC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FE0F912BE3D94A00E8AC4A /* Build configuration list for PBXNativeTarget "SolarPanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FE0F922BE3D94A00E8AC4A /* Debug */,
+				A8FE0F932BE3D94A00E8AC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FE0F942BE3D94A00E8AC4A /* Build configuration list for PBXNativeTarget "SolarPanelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FE0F952BE3D94A00E8AC4A /* Debug */,
+				A8FE0F962BE3D94A00E8AC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8FE0F6D2BE3D94900E8AC4A /* SolarPanel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8FE0F6E2BE3D94900E8AC4A /* SolarPanel.xcdatamodel */,
+			);
+			currentVersion = A8FE0F6E2BE3D94900E8AC4A /* SolarPanel.xcdatamodel */;
+			path = SolarPanel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8FE0F592BE3D94900E8AC4A /* Project object */;
+}

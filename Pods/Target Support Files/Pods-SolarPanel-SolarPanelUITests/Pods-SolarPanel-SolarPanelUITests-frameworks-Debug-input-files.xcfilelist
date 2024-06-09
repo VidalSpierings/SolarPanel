@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SolarPanel-SolarPanelUITests/Pods-SolarPanel-SolarPanelUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Cards/Cards.framework
+${BUILT_PRODUCTS_DIR}/DGCharts/DGCharts.framework
+${BUILT_PRODUCTS_DIR}/Player/Player.framework

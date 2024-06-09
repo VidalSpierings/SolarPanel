@@ -1,0 +1,26 @@
+PODS:
+  - Cards (1.4.0):
+    - Player (= 0.13.0)
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+  - Player (0.13.0)
+
+DEPENDENCIES:
+  - Cards
+  - DGCharts
+
+SPEC REPOS:
+  trunk:
+    - Cards
+    - DGCharts
+    - Player
+
+SPEC CHECKSUMS:
+  Cards: 45ae6bd0eca7b5e8016d3b6cb30b60b04753f68f
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  Player: 968d8d07d923bcdd6f7e4091c9e306eb44a5f7a4
+
+PODFILE CHECKSUM: 460e8a1e100f0d0f4ed939843f3fac0e476a1c03
+
+COCOAPODS: 1.15.2
